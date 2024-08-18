@@ -14,6 +14,16 @@ import { FaBookReader } from "react-icons/fa";
 import { RiNewsLine } from "react-icons/ri";
 import { IoSearchSharp } from "react-icons/io5";
 import logobg from "../Components/Image/logobg.png";
+import { FaMoon } from "react-icons/fa";
+import { BsBrightnessHighFill } from "react-icons/bs";
+
+
+
+
+
+
+
+
 
 const Navbar = () => {
   return (
@@ -61,7 +71,13 @@ const Navbar = () => {
             Search
           </li>
         </ul>
+
+        
       </div>
+
+
+
+
     </div>
   );
 };
