@@ -37,24 +37,24 @@ const SectionTwo=()=>{
         {/* sec 1 */}
 
         <section className="pt-10 px-[5rem]">
-            <h1 className="text-black text-3xl font-extrabold ">Hash Business Hub – Your One-Stop Shop for All Things Essential!!!</h1>
+            <h1 className="text-black text-3xl font-extrabold ">Hash Business Hub  Your One-Stop Shop for All Things Essential!!!</h1>
 
-            <p className="pt-5 text-black">At Hash Business Hub, we bring the marketplace to you because we believe shopping should be effortless and enjoyable.That’s why we've created a vibrant Business hub where you can find everything you need, from everyday essentials to rare and unique items. Whether you’re looking for high-quality products, professional services, or exclusive deals, Hash Business Hub is your go-to destination.</p>
+            <p className="pt-5 text-black">At Hash Business Hub, we bring the marketplace to you because we believe shopping should be effortless and enjoyable.That is why we've created a vibrant Business hub where you can find everything you need, from everyday essentials to rare and unique items. Whether you are looking for high-quality products, professional services, or exclusive deals, Hash Business Hub is your go-to destination.</p>
 
             <p className="pt-5 text-black">Our platform is designed with you in mind. We prioritize convenience, ensuring a seamless shopping experience from start to finish. With just a few clicks, you can browse an extensive range of categories, compare prices, and make secure purchases. Our user-friendly interface and dedicated customer support mean that shopping has never been easier or more reliable.</p>
 
-            <p className="pt-5 text-black">But we’re more than just a hub – we’re a family in the hash community. At Hash Business Hub, we connect you with trusted sellers who share your values of quality, transparency, and customer satisfaction. We continuously strive to bring you the best products and services, tailored to your needs and delivered straight to your door.</p>
+            <p className="pt-5 text-black">But we are more than just a hub. we are a family in the hash community. At Hash Business Hub, we connect you with trusted sellers who share your values of quality, transparency, and customer satisfaction. We continuously strive to bring you the best products and services, tailored to your needs and delivered straight to your door.</p>
 
             <h1 className="pt-20 text-black text-3xl font-extrabold">Why Choose Hash Business Hub?</h1>
 
             <ul className="pt-5 flex flex-col gap-5">
                 <li><b>Diverse Selection:</b> From groceries to gadgets, fashion to furniture, we offer a wide array of products and services, all in one place.</li>
-                <li><b>Unbeatable Convenience:</b> Shop anytime, anywhere, with a platform that’s accessible and easy to use.</li>
+                <li><b>Unbeatable Convenience:</b> Shop anytime, anywhere, with a platform that is accessible and easy to use.</li>
                 <li><b>Quality You Can Trust:</b> We work with reputable sellers to ensure that every purchase meets your expectations.</li>
                 <li><b>Customer-Centric Service:</b> Our support team is here to assist you every step of the way, ensuring your experience is nothing short of exceptional.</li>
             </ul>
 
-            <p className="pt-5 text-neutral-400 italic">Join the growing community at Hash Business Hub and discover how we’re revolutionizing the way you shop online. Experience the future of hash e-commerce – where your needs come first, and satisfaction is guaranteed.</p>
+            <p className="pt-5 text-neutral-400 italic">Join the growing community at Hash Business Hub and discover how we are revolutionizing the way you shop online. Experience the future of hash e-commerce. where your needs come first, and satisfaction is guaranteed.</p>
             
         </section>
 
