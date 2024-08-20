@@ -28,7 +28,7 @@ export const mockData = [
         Description:'swiper image',
         Price: '$88',
         Image: s2,
-       rating:
+       rating:4,
         tag:2
     },
 
