@@ -16,6 +16,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import logobg from "../Components/Image/logobg.png";
 import { FaMoon } from "react-icons/fa";
 import { BsBrightnessHighFill } from "react-icons/bs";
+import Link from "next/link";
 
 
 
@@ -29,35 +30,35 @@ const Navbar = () => {
   return (
     <div>
       <div className="px-[6rem] py-[10px] flex fixed z-50 bg-white w-full   ">
-        <div>
-          <Image
-            src={logo}
-            width={0}
-            height={0}
-            alt="image"
-            className="w-16 cursor-pointer"
-          />
-        </div>
+
+        <Link href={'/'}>
+          <div><Image src={logo} width={0} height={0} alt="image" className="w-16 cursor-pointer"/></div>
+        </Link>
+
+
+       
 
         <ul className="m-auto flex gap-10">
-          <li className="flex gap-1 items-center justify-center hover:text-yellow-800 text-black font-semibold hover:bg-red-100 px-3 py-2 rounded-full cursor-pointer">
-            <span className="text-xl">
-              <IoHome />
-            </span>
-            Home
-          </li>
+
+          <Link href={'/'}>
+            <li className="flex gap-1 items-center justify-center hover:text-yellow-800 text-black font-semibold hover:bg-red-100 px-3 py-2 rounded-full cursor-pointer"><span className="text-xl"><IoHome /></span>Home</li>
+          </Link>
+
+
+
+          
+
           <li className="flex gap-1 items-center justify-center hover:text-yellow-800 text-black font-semibold hover:bg-red-100 px-3 py-2 rounded-full cursor-pointer">
             <span className="text-xl">
               <FaBusinessTime />
             </span>
             Business Hub{" "}
           </li>
-          <li className="flex gap-1 items-center justify-center hover:text-yellow-800 text-black font-semibold hover:bg-red-100 px-3 py-2 rounded-full cursor-pointer">
-            <span className="text-xl">
-              <FaBookReader />
-            </span>
-            About us
-          </li>
+         
+          <Link href={'/about'}><li className="flex gap-1 items-center justify-center hover:text-yellow-800 text-black font-semibold hover:bg-red-100 px-3 py-2 rounded-full cursor-pointer"><span className="text-xl"><FaBookReader /></span>About us</li></Link>
+
+          
+
           <li className="flex gap-1 items-center justify-center hover:text-yellow-800 text-black font-semibold hover:bg-red-100 px-3 py-2 rounded-full cursor-pointer">
             <span className="text-xl">
               <RiNewsLine />
