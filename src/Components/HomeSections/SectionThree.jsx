@@ -5,7 +5,6 @@
 
 import React from "react"
 import Image from "next/image"
-import { mockData } from "./MockData";
 import { FaStar } from "react-icons/fa";
 
 
